@@ -19,6 +19,7 @@ Keep reading for a more detailed description of Book Nook's features and demos.
   
 [General Features](#general-features) <br>
 &emsp;[Creating an Account](#creating-an-account) <br>
+&emsp;[Logging In](#logging-in) <br>
 &emsp;[Updating an Account](#updating-an-account) <br>
 &emsp;[Deleting an Account](#deleting-an-account) <br>
 &emsp;[Logging Out](#logging-out) <br>
@@ -57,8 +58,25 @@ Keep reading for a more detailed description of Book Nook's features and demos.
 These are features that are available to both author and reader users.
 
 ### Creating an Account
+Upon opening Book Nook, all users will be taken to the login in page. From there, there are just five simple steps to create an account.
 
+1. Click the "Click here to create a new user" button.
+2. Enter your preferred name.
+3. Enter a username.
+4. Enter a password.
+5. Select the checkbox for the role that best suits you. (Please only select one.)
+6. Click the "Create User!" button.
+
+You will be taken back to the login screen and a pop-up will inform you that your account was successfully created and to log in.
+
+If you enter a username that is already in use by someone of your selected role, you will recieve a pop-up informing you that the username is taken and to try a different one.
+
+### Logging In
+Once you have a Book Nook account, simply type in your username and password and click "Login"! You will be brought to your homepage.
+
+If you enter incorrect information, whether it be username or password, you will recieve a pop-up informing you that something was incorrect and to try again.
 ### Updating an Account
+
 
 ### Deleting an Account
 
