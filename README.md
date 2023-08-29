@@ -1,4 +1,4 @@
-![BookNookLogo](https://github.com/maeganlucas/BookNook/assets/92832062/b88c1cd4-c7b4-46b3-a7c6-4ef1546da70d)
+![BookNookLogo](https://github.com/maeganlucas/BookNook/blob/main/Resources/BookNookLogo.png)
 
 Book Nook is a book review application for the use of both authors and readers that interacts with a database to store all information. Users create accounts based on whether they are an author or a reader, which will determine the functionalities available to them. 
 
@@ -73,6 +73,8 @@ Upon opening Book Nook, all users will be taken to the login in page. From there
 You will be taken back to the login screen and a pop-up will inform you that your account was successfully created and to log in.
 
 If you enter a username that is already in use by someone of your selected role, you will recieve a pop-up informing you that the username is taken and to try a different one.
+
+![](https://github.com/maeganlucas/BookNook/blob/main/Resources/create-user-profile.gif)
 
 ### Logging In
 Once you have a Book Nook account, simply type in your username and password and click _Login_! You will be brought to your homepage.
