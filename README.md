@@ -34,7 +34,7 @@ Keep reading for a more detailed description of Book Nook's features and demos.
 &emsp;[Updating a Book](#updating-a-book) <br>
 &emsp;[Deleting a Book](#deleting-a-book) <br>
 &emsp;[Seeing Book Reviews](#seeing-book-reviews) <br>
-&emsp;[Returning to the Homescreen](#returning-to-the-homescreen) <br>
+&emsp;[Returning to the Author Homescreen](#returning-to-the-author-homescreen) <br>
 
 </details>
 
@@ -44,13 +44,14 @@ Keep reading for a more detailed description of Book Nook's features and demos.
 [Reader Features](#reader-features) <br>
 &emsp;[Searching Books](#searching-books) <br>
 &emsp;[Read Books](#read-books) <br>
-&emsp;[TBR Books](#tbr-books) <br>
 &emsp;[Currently Reading Books](#currently-reading-books) <br>
+&emsp;[TBR Books](#tbr-books) <br>
 &emsp;[Creating a Review](#creating-a-review) <br>
 &emsp;[Updating a Review](#updating-a-review) <br>
 &emsp;[Deleting a Review](#deleting-a-review) <br>
+&emsp;[Seeing Reviews](#seeing-reviews) <br>
 &emsp;[Reading Statuses](#reading-statuses) <br>
-&emsp;[Returning to the Homescreen](#returning-to-the-homescreen) <br>
+&emsp;[Returning to the Reader Homescreen](#returning-to-the-reader-homescreen) <br>
 
 </details>
 
@@ -88,7 +89,7 @@ If you want to delete your profile all together, click the _Settings_ tab on the
 For author users, when a profile is deleted, any books that they have entered into the database remain in the database. This is also stated in a special message on their confirmation popup.
 
 ### Logging Out
-To log out of your account and return to the sign in screen, click the _Log Out_ tab on the menu bar on the top of the screen and press _Log Out_.
+To log out of your account and return to the sign in screen, click the _Logout_ tab on the menu bar on the top of the screen and press _Logout_.
 
 ---
 
@@ -103,29 +104,50 @@ To update a book entry within the database, click the _Books_ tab on the menu ba
 A form will display with the book details prefilled in their respective fields. Update any information and press _Update Book_.
 
 ### Deleting a Book
+To update a book entry within the database, click the _Books_ tab on the menu bar at the top of the screen and press _Delete Book_. A popup will display asking for the ISBN of the book you would like to delete. Enter the ISBN number and press _Delete_. 
 
 ### Seeing Book Reviews
+To see reviews for a book, click the _Reviews_ tab on the menu bar at the top of the screen and press _See Reviews_. Select the correct book from the dropdown menu and click _See Reviews_. Graphs of the different categories will appear.
 
-### Returning to the Homescreen
+### Returning to the Author Homescreen
+To return to the author homescreen, click the _Logout_ tab on the menu bar at the top of the screen and press _Back to Home_.
 
 ---
 
 ## Reader Features
 
 ### Searching Books
+To search for aa particular book within the database, click the _Books_ tab on the menu bar at the top of the screen and press _Search Books_. In the search bar, type in keywords about the book's title, author, or series and press _Search_. 
 
 ### Read Books
+To see the books marked as _Read_, also the reader's homescreen, click the _Books_ tab on the menu bar at the top of the screen and press _Read Books_. 
+ 
+### Currently Reading Books
+To see the books marked as _Currently Reading_, click the _Books_ tab on the menu bar at the top of the screen and press _Currently Reading_.
 
 ### TBR Books
-
-### Currently Reading Books
+To see the books marked as _To Be Read_, click the _Books_ tab on the menu bar at the top of the screen and press _TBR_.
 
 ### Creating a Review
+Once a book is marked as _Read_ (see [Reading Statuses](#reading-statuses)), a new screen will appear allowing you to create a review. Fill in the fields with the appropriate information then click _Done!_.
+
+_Note:_ Only numerical reviews will be taken into consideration for review breakdowns for both authors and readers.
 
 ### Updating a Review
+To update a review, click the _Reviews_ tab on the menu bar at the top of the screen and press _Update Review_. A popup will display asking for the ISBN of the book review to update. Enter the ISBN number and then click _Update_. A form will display with the fields prefilled with the review's information stored in the database. Update any information necessary and click _Done!_.
 
 ### Deleting a Review
+To delete a review, click the _Reviews_ tab on the menu bar at the top of the screen and press _Delete Review_. A popup will display asking for the ISBN of the book review to delete. Enter the ISBN number and then click _Delete_.
+
+### Seeing Reviews
+To see reviews for a certain time range, click the _Reviews_ tab on the menu bar at the top of the screen and select _See Reviews_. Enter a beginning and ending date for the range and select _Get Review Breakdown_. Graphs of your reviews made between the given range will appear on the screen.
 
 ### Reading Statuses
+To initially set a reading status for a book, first search for the book within the database (see [Searching Books](#searching-books)). Once you find the book you are looking for, click _Select Reading Status_. A popup will display asking for the book whose reading status you would like to set, which should prefill with the selected book's ISBN. A dropdown menu and three buttons will appear. Select the proper reading status from the dropdown menu and click _Set Reading Status_.
 
-### Returning to the Homescreen
+To edit a reading status for a book, first search for the book within the database (see [Searching Books](#searching-books)). Once you find the book you are looking for, click _Select Reading Status_. A popup will display asking for the book whose reading status you would like to set, which should prefill with the selected book's ISBN. A dropdown menu prefilled with the book's current reading status and three buttons will appear. Select the proper reading status from the dropdown menu and click _Edit Reading Status_.
+
+To delete a reading status for a book, first search for the book within the database (see [Searching Books](#searching-books)). Once you find the book you are looking for, click _Select Reading Status_. A popup will display asking for the book whose reading status you would like to set, which should prefill with the selected book's ISBN. A dropdown menu prefilled with the book's current reading status and three buttons will appear. Select the proper reading status from the dropdown menu and click _Delete Status_.
+
+### Returning to the Reader Homescreen
+To return to the reader homescreen, click the _Books_ tab on the menu bar at the top of the screen and press _Read Books_. 
