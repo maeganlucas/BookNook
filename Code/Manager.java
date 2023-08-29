@@ -20,7 +20,7 @@ public class Manager {
 
         String url = "jdbc:mariadb://localhost:3306/BookNook";
         String user = "root";
-        String password = "Annslee02!";
+        String password = "******"; //Password removed for privacy purposes
 
         try{
             connection = DriverManager.getConnection(url, user, password);
