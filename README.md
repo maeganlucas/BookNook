@@ -61,7 +61,7 @@ Keep reading for a more detailed description of Book Nook's features and demos.
 These are features that are available to both author and reader users.
 
 ### Creating an Account
-Upon opening Book Nook, all users will be taken to the login in page. From there, there are just five simple steps to create an account.
+Upon opening Book Nook, all users will be taken to the login in page. From there, there are just six simple steps to create an account.
 
 1. Click the _Click here to create a new user_ button.
 2. Enter your preferred name.
