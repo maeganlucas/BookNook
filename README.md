@@ -74,8 +74,6 @@ You will be taken back to the login screen and a pop-up will inform you that you
 
 If you enter a username that is already in use by someone of your selected role, you will recieve a pop-up informing you that the username is taken and to try a different one.
 
-![](https://github.com/maeganlucas/BookNook/blob/main/Resources/create-user-profile.gif)
-
 ### Logging In
 Once you have a Book Nook account, simply type in your username and password and click _Login_! You will be brought to your homepage.
 
